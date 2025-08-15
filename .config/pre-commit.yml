@@ -1,0 +1,12 @@
+fail_fast: true
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v6.0.0
+  hooks:
+  #- id: check-yaml
+  - id: end-of-file-fixer
+    files: ^src/.*
+  - id: check-json
+    files: ^src/.*\.json
+  - id: trailing-whitespace
+    files: ^src/.*

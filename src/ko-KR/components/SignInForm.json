@@ -1,5 +1,7 @@
 {
-    "email": "이메일",
-    "username": "계정",
-    "password": "비밀번호"
+    "label": {
+        "email": "이메일",
+        "username": "계정",
+        "password": "비밀번호"
+    }
 }

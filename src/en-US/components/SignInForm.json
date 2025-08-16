@@ -1,5 +1,7 @@
 {
-    "email": "Email",
-    "username": "Username",
-    "password": "Password"
+    "label": {
+        "email": "Email",
+        "username": "Username",
+        "password": "Password"
+    }
 }

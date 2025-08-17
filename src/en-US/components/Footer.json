@@ -3,5 +3,9 @@
         "objective": "Vanitrope is operated for educational and research purposes, facilitating the study of software development, server management, networking, and related technologies in a controlled, non-commercial environment.",
         "disclaimer": "This project is independent and is not affiliated with, endorsed by, or sponsored by Blizzard Entertainment, Inc. or its parent company, Activision Blizzard.",
         "copyright": "World of Warcraft®, Warcraft®, and all related characters, logos, and names are registered trademarks of Blizzard Entertainment, Inc. All game content referenced or used on this server remains the exclusive property of Blizzard."
+    },
+    "navlink": {
+        "about": "About",
+        "contact": "Contact"
     }
 }

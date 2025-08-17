@@ -3,5 +3,9 @@
         "objective": "Vanitrope es operada para propósitos de investigación y fines educativos, para facilitar el estudio para desarrollo de software, manejo de servidores, networking y tecnologías desarrolladas en ambiente no comercial controlado.",
         "disclaimer": "Este proyecto es completamente independiente y no está afiliado, endosado ni patrocinado por Blizzard Entertainment, Inc. ni su compañía madre, Activision Blizzard.",
         "copyright": "World of Warcraft®, Warcraft®, y todos los personajes, logotipos, y nombres, son marcas registradas de Blizzard Entertainment, Inc. Todo el contenido usado en este videojuego en por el servidor permanece como propiedad exclusiva de Blizzard."
+    },
+    "navlink": {
+        "about": "Sobre",
+        "contact": "Contacto"
     }
 }

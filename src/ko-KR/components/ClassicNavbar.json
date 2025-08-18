@@ -2,6 +2,7 @@
     "navlink": {
         "join": "참가",
         "community": "모임",
+        "status": "상태",
         "insight": "더보기",
         "ask": "질문",
         "donate": "기부"

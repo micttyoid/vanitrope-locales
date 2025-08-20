@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/routes/join",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": ["string", "null"]
+    }
+  },
+  "additionalProperties": false
+}

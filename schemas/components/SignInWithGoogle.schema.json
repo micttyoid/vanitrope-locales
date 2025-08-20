@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/components/SignInWithGoogle",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": ["string", "null"]
+    }
+  },
+  "additionalProperties": false
+}

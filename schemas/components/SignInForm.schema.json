@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/components/SignInForm",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": ["string", "null"]
+        },
+        "username": {
+          "type": ["string", "null"]
+        },
+        "password": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

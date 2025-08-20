@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/common",
+  "type": "object",
+  "properties": {
+    "vanitrope": {
+      "type": ["string", "null"]
+    },
+    "hello": {
+      "type": ["string", "null"]
+    },
+    "meow": {
+      "type": ["string", "null"]
+    }
+  },
+  "additionalProperties": false
+}

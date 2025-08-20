@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/components/ClassicNavbar",
+  "type": "object",
+  "properties": {
+    "navlink": {
+      "type": "object",
+      "properties": {
+        "join": {
+          "type": ["string", "null"]
+        },
+        "community": {
+          "type": ["string", "null"]
+        },
+        "status": {
+          "type": ["string", "null"]
+        },
+        "insight": {
+          "type": ["string", "null"]
+        },
+        "ask": {
+          "type": ["string", "null"]
+        },
+        "donate": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

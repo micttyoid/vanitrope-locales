@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/routes/wip",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": ["string", "null"]
+    },
+    "message": {
+      "type": "object",
+      "properties": {
+        "formal": {
+          "type": ["string", "null"]
+        },
+        "informal": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

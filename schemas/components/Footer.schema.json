@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/components/Footer",
+  "type": "object",
+  "properties": {
+    "section": {
+      "type": "object",
+      "properties": {
+        "objective": {
+          "type": ["string", "null"]
+        },
+        "disclaimer": {
+          "type": ["string", "null"]
+        },
+        "copyright": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "navlink": {
+      "type": "object",
+      "properties": {
+        "about": {
+          "type": ["string", "null"]
+        },
+        "contact": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

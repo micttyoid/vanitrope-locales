@@ -5,8 +5,9 @@ repos:
   hooks:
   #- id: check-yaml
   - id: end-of-file-fixer
-    files: ^src/.*
+    files: ^(src|schemas)/.*
   - id: check-json
-    files: ^src/.*\.json
+    files: ^(src|schemas)/.*\.json
   - id: trailing-whitespace
-    files: ^src/.*
+    files: ^(src|schemas)/.*
+

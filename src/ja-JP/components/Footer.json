@@ -1,8 +1,8 @@
 {
     "section": {
-        "objective": "バニトロープは教育および研究目的で運営されており、管理された非商用環境でソフトウェア開発、サーバー管理、ネットワーキング、および関連技術の研究を促進してい。",
-        "disclaimer": null,
-        "copyright": null
+        "objective": "バニトロープは、教育および研究目的で運営されており、ソフトウェア開発、サーバー管理、ネットワーク、および関連技術の研究を、制御された非商用環境で支援しています。",
+        "disclaimer": "このプロジェクトは独立したものであり、Blizzard Entertainment, Inc.またはその親会社であるActivision Blizzardと関連性はなく、同社の承認や後援を受けていません。",
+        "copyright": "World of Warcraft®、Warcraft®および関連するキャラクター、ロゴ、名称は、Blizzard Entertainment, Inc.の登録商標です。このサーバーで参照または使用されるすべてのゲームコンテンツは、Blizzardの独占的な財産です。"
     },
     "navlink": {
         "about": null,

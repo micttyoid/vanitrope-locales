@@ -5,7 +5,7 @@
         "copyright": "World of Warcraft®、Warcraft®および関連するキャラクター、ロゴ、名称は、Blizzard Entertainment, Inc.の登録商標です。このサーバーで参照または使用されるすべてのゲームコンテンツは、Blizzardの独占的な財産です。"
     },
     "navlink": {
-        "about": null,
-        "contact": null
+        "about": "概要",
+        "contact": "連絡先"
     }
 }

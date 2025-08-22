@@ -24,5 +24,5 @@ jobs:
     - name: Install dependencies
       run: pip install -r ${{ github.workspace }}/.config/requirements.txt
     
-    - name: Run git hook
-      run: pre-commit run -c ${{ github.workspace }}/.config/pre-commit.yml --files src schemas
+    - name: Run pre-commit commitlessly
+      run: pre-commit run -c ${{ github.workspace }}/.config/pre-commit.yml --files ${{ github.workspace }}/src/**/*.json ${{ github.workspace }}/schemas/**/*.json --show-diff

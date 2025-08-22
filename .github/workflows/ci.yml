@@ -19,4 +19,4 @@ jobs:
         python-version: '3.13.3'
 
     - name: Install pre-commit
-      run: pip install -r ${{ github.workspace }}.config/requirements.txt
+      run: pip install -r ${{ github.workspace }}/.config/requirements.txt

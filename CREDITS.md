@@ -10,4 +10,6 @@ Alma Delia García Vázquez
 
 ### ja-JP
 
+Kiomi
+
 Usmar A. Padow (usmpadow@gmail.com)

@@ -19,7 +19,10 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.13.3'
+        python-version: ${{ env.PYTHON_VERSION }}
 
-    - name: Install pre-commit
+    - name: Install dependencies
       run: pip install -r ${{ github.workspace }}/.config/requirements.txt
+    
+    - name: Run git hook
+      run: pre-commit run -c ${{ github.workspace }}/.config/pre-commit.yml --files src schemas

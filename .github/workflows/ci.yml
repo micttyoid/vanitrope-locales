@@ -1,0 +1,28 @@
+name: base-ci
+
+env:
+  PYTHON_VERSION: '3.13.3'
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: pip install -r ${{ github.workspace }}/.config/requirements.txt
+    
+    - name: Run pre-commit commitlessly
+      run: pre-commit run -c ${{ github.workspace }}/.config/pre-commit.yml --files ${{ github.workspace }}/src/**/*.json ${{ github.workspace }}/schemas/**/*.json --show-diff
